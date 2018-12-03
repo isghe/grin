@@ -15,7 +15,7 @@ byteorder = "1"
 lmdb-zero = "0.4.4"
 failure = "0.1"
 failure_derive = "0.1"
-croaring = "0.3"
+croaring =  { git = "https://github.com/isghe/croaring-rs.git", branch = "macOS" }
 log = "0.4"
 serde = "1"
 serde_derive = "1"
